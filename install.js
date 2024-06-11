@@ -9,7 +9,7 @@ module.exports = {
         {
             "method": "shell.run",
             "params": {
-                "message": "git clone https://github.com/2noise/ChatTTS.git app"
+                "message": "git clone https://gitee.com/arteffix/ChatTTS.git app"
             }
         },
         {
