@@ -9,13 +9,13 @@ module.exports = {
         {
             "method": "shell.run",
             "params": {
-                "message": "git clone https://gitee.com/arteffix/ChatTTS.git app"
+                "message": "git clone --depth 1 https://gitee.com/arteffix/ChatTTS.git app"
             }
         },
         {
             "method": "shell.run",
             "params": {
-                "message": "git clone https://www.modelscope.cn/pzc163/chatTTS.git model",
+                "message": "git clone --depth 1 https://www.modelscope.cn/pzc163/chatTTS.git model",
             }
         },
         {
