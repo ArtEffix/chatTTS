@@ -21,6 +21,12 @@ module.exports = {
         {
             "method": "shell.run",
             "params": {
+                "message": "pip install gradio",
+            }
+        },
+        {
+            "method": "shell.run",
+            "params": {
                 "venv": "env",
                 "path": "app",
                 "message": "pip install -r requirements.txt  -i https://pypi.tuna.tsinghua.edu.cn/simple"
