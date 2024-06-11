@@ -21,7 +21,7 @@ module.exports = {
         {
             "method": "shell.run",
             "params": {
-                "message": "pip install gradio omegaconf",
+                "message": "pip3 install gradio omegaconf",
             }
         },
         {
