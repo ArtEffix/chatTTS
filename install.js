@@ -21,7 +21,13 @@ module.exports = {
         {
             "method": "shell.run",
             "params": {
-                "message": "pip3 install gradio omegaconf",
+                "message": "pip3 install transformers vocos vector_quantize_pytorch gradio omegaconf",
+            }
+        },
+        {
+            "method": "shell.run",
+            "params": {
+                "message": "conda install -c conda-forge pynini=2.1.5 && pip install WeTextProcessing",
             }
         },
         {
@@ -29,7 +35,7 @@ module.exports = {
             "params": {
                 "venv": "env",
                 "path": "app",
-                "message": "pip install -r requirements.txt  -i https://pypi.tuna.tsinghua.edu.cn/simple"
+                "message": "pip3 install -r requirements.txt  -i https://pypi.tuna.tsinghua.edu.cn/simple"
             }
         }
     ]
