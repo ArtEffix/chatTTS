@@ -9,7 +9,7 @@
     {
       "method": "fs.rm",
       "params": {
-        "path": "workflows"
+        "path": "model"
       }
     }
   ]
