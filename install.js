@@ -27,7 +27,7 @@ module.exports = {
         {
             "method": "shell.run",
             "params": {
-                "message": "conda install -c conda-forge pynini=2.1.5 && pip install WeTextProcessing",
+                "message": "conda install -y -c conda-forge pynini=2.1.5 && pip install WeTextProcessing",
             }
         },
         {
