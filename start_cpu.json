@@ -1,0 +1,16 @@
+{
+  "daemon": true,
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "venv": "env",
+        "path": "app",
+        "env": {
+          "PYTORCH_MPS_HIGH_WATERMARK_RATIO": "0.0"
+        },
+        "message": "python main.py --cpu"
+      }
+    }
+  ]
+}
