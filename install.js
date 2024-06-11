@@ -15,7 +15,7 @@ module.exports = {
         {
             "method": "shell.run",
             "params": {
-                "message": "git clone git clone https://www.modelscope.cn/pzc163/chatTTS.git model",
+                "message": "git clone https://www.modelscope.cn/pzc163/chatTTS.git model",
             }
         },
         {
